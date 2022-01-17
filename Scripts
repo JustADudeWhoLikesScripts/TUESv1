@@ -1,0 +1,1698 @@
+local TUESv12 = Instance.new("ScreenGui")
+local OpenMenu = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local MainPanel = Instance.new("Frame")
+local Panel = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local Verison = Instance.new("TextLabel")
+local Scroll = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_4 = Instance.new("UICorner")
+local UICorner_5 = Instance.new("UICorner")
+local Tabs = Instance.new("Frame")
+local UICorner_6 = Instance.new("UICorner")
+local Homebutton = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local BanPanel = Instance.new("TextButton")
+local Panel_2 = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
+local Frame_2 = Instance.new("Frame")
+local UICorner_9 = Instance.new("UICorner")
+local Button2 = Instance.new("TextButton")
+local Reason = Instance.new("TextBox")
+local Button = Instance.new("TextButton")
+local Input = Instance.new("TextBox")
+local Trolling = Instance.new("TextButton")
+local Frame_3 = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Toggle = Instance.new("Frame")
+local UICorner_11 = Instance.new("UICorner")
+local ToggleInner = Instance.new("Frame")
+local UICorner_12 = Instance.new("UICorner")
+local ToggleVisual = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local ToggleButton = Instance.new("TextButton")
+local Toggle1 = Instance.new("Frame")
+local UICorner_14 = Instance.new("UICorner")
+local ToggleInner_2 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
+local ToggleVisual_2 = Instance.new("Frame")
+local UICorner_16 = Instance.new("UICorner")
+local ToggleButton_2 = Instance.new("TextButton")
+local Toggle2 = Instance.new("Frame")
+local UICorner_17 = Instance.new("UICorner")
+local ToggleInner_3 = Instance.new("Frame")
+local UICorner_18 = Instance.new("UICorner")
+local ToggleVisual_3 = Instance.new("Frame")
+local UICorner_19 = Instance.new("UICorner")
+local ToggleButton_3 = Instance.new("TextButton")
+local Toggle3 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local ToggleInner_4 = Instance.new("Frame")
+local UICorner_21 = Instance.new("UICorner")
+local ToggleVisual_4 = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local ToggleButton_4 = Instance.new("TextButton")
+local Toggle4 = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local ToggleInner_5 = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local ToggleVisual_5 = Instance.new("Frame")
+local UICorner_25 = Instance.new("UICorner")
+local ToggleButton_5 = Instance.new("TextButton")
+local Toggle_2 = Instance.new("TextLabel")
+local Toggle1_2 = Instance.new("TextLabel")
+local Toggle2_2 = Instance.new("TextLabel")
+local Toggle3_2 = Instance.new("TextLabel")
+local Toggle4_2 = Instance.new("TextLabel")
+local Teleporter = Instance.new("TextButton")
+local Main = Instance.new("Frame")
+local Menu = Instance.new("Frame")
+local Title_2 = Instance.new("TextLabel")
+local UICorner_26 = Instance.new("UICorner")
+local Verison_2 = Instance.new("TextLabel")
+local Panel_3 = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local GamePanel = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local ChatController = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
+local GamePanel_2 = Instance.new("Frame")
+local UICorner_31 = Instance.new("UICorner")
+local GamePanelFrame = Instance.new("Frame")
+local UICorner_32 = Instance.new("UICorner")
+local Logo = Instance.new("TextLabel")
+local Verison_3 = Instance.new("TextLabel")
+local ChatController_2 = Instance.new("Frame")
+local Panel_4 = Instance.new("Frame")
+local Title_3 = Instance.new("TextLabel")
+local UICorner_33 = Instance.new("UICorner")
+local Verison_4 = Instance.new("TextLabel")
+local Scroll_2 = Instance.new("Frame")
+local UICorner_34 = Instance.new("UICorner")
+local TextLabel_3 = Instance.new("TextLabel")
+local UICorner_35 = Instance.new("UICorner")
+local UICorner_36 = Instance.new("UICorner")
+local Tabs_2 = Instance.new("Frame")
+local UICorner_37 = Instance.new("UICorner")
+local No = Instance.new("TextButton")
+local Frame_4 = Instance.new("Frame")
+local UICorner_38 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local ChatControl = Instance.new("TextButton")
+local Panel_5 = Instance.new("Frame")
+local UICorner_39 = Instance.new("UICorner")
+local Audio = Instance.new("TextButton")
+local Frame_5 = Instance.new("Frame")
+local UICorner_40 = Instance.new("UICorner")
+
+--Properties:
+
+TUESv12.Name = "TUES v1.2"
+TUESv12.Parent = game.Workspace
+TUESv12.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+OpenMenu.Name = "OpenMenu"
+OpenMenu.Parent = TUESv12
+OpenMenu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenMenu.Position = UDim2.new(0.0140000004, 0, 0.93900001, 0)
+OpenMenu.Size = UDim2.new(0, 129, 0, 27)
+OpenMenu.Font = Enum.Font.SourceSansBold
+OpenMenu.Text = "Open"
+OpenMenu.TextColor3 = Color3.fromRGB(255, 255, 255)
+OpenMenu.TextSize = 20.000
+
+UICorner.CornerRadius = UDim.new(0, 5)
+UICorner.Parent = OpenMenu
+
+MainPanel.Name = "MainPanel"
+MainPanel.Parent = TUESv12
+MainPanel.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+MainPanel.BorderColor3 = Color3.fromRGB(170, 0, 0)
+MainPanel.BorderSizePixel = 5
+MainPanel.Position = UDim2.new(0.183121234, 0, 0.0240000002, 0)
+MainPanel.Size = UDim2.new(0, 643, 0, 353)
+MainPanel.Draggable = true
+MainPanel.Active = true
+
+Panel.Name = "Panel"
+Panel.Parent = MainPanel
+Panel.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Panel.Position = UDim2.new(0.0132699888, 0, 0.0130678341, 0)
+Panel.Size = UDim2.new(0, 631, 0, 341)
+Panel.Draggable = true
+Panel.Active = true
+
+Title.Name = "Title"
+Title.Parent = Panel
+Title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderColor3 = Color3.fromRGB(170, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0.0570522994, 0, 0.00293255132, 0)
+Title.Size = UDim2.new(0, 595, 0, 32)
+Title.Font = Enum.Font.Code
+Title.Text = "TUES"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextSize = 30.000
+Title.TextWrapped = true
+
+UICorner_2.CornerRadius = UDim.new(0, 10)
+UICorner_2.Parent = Panel
+
+Verison.Name = "Verison"
+Verison.Parent = Panel
+Verison.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Verison.BackgroundTransparency = 1.000
+Verison.Position = UDim2.new(0.574777305, 0, 0.0262561701, 0)
+Verison.Size = UDim2.new(0, 43, 0, 24)
+Verison.Font = Enum.Font.Code
+Verison.Text = "v1.2"
+Verison.TextColor3 = Color3.fromRGB(255, 255, 255)
+Verison.TextSize = 14.000
+
+Scroll.Name = "Scroll"
+Scroll.Parent = Panel
+Scroll.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Scroll.Size = UDim2.new(0, 100, 0, 341)
+
+UICorner_3.CornerRadius = UDim.new(0, 4)
+UICorner_3.Parent = Scroll
+
+TextLabel.Parent = Panel
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.Position = UDim2.new(0.00158478611, 0, 0.00293255132, 0)
+TextLabel.Size = UDim2.new(0, 100, 0, 33)
+TextLabel.Font = Enum.Font.Code
+TextLabel.Text = "Tabs"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 20.000
+
+UICorner_4.CornerRadius = UDim.new(0, 2)
+UICorner_4.Parent = TextLabel
+
+UICorner_5.CornerRadius = UDim.new(0, 10)
+UICorner_5.Parent = MainPanel
+
+Tabs.Name = "Tabs"
+Tabs.Parent = MainPanel
+Tabs.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Tabs.Position = UDim2.new(0.167981252, 0, 0.0964815319, 0)
+Tabs.Size = UDim2.new(0, 530, 0, 311)
+
+UICorner_6.Parent = Tabs
+
+Homebutton.Name = "Homebutton"
+Homebutton.Parent = Tabs
+Homebutton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Homebutton.BackgroundTransparency = 1.000
+Homebutton.Position = UDim2.new(-0.189836666, 0, 0.096462965, 0)
+Homebutton.Size = UDim2.new(0, 93, 0, 19)
+Homebutton.Font = Enum.Font.Jura
+Homebutton.Text = "Home"
+Homebutton.TextColor3 = Color3.fromRGB(255, 255, 255)
+Homebutton.TextScaled = true
+Homebutton.TextSize = 14.000
+Homebutton.TextWrapped = true
+
+Frame.Parent = Homebutton
+Frame.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame.Position = UDim2.new(1.08413625, 0, -1.39184403, 0)
+Frame.Size = UDim2.new(0, 530, 0, 310)
+Frame.Visible = false
+
+UICorner_7.Parent = Frame
+
+TextLabel_2.Parent = Frame
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.274878353, 0, 0.262971938, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 107)
+TextLabel_2.Font = Enum.Font.Code
+TextLabel_2.Text = "Thank You For Using TUES scripts,"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+BanPanel.Name = "BanPanel"
+BanPanel.Parent = Tabs
+BanPanel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BanPanel.BackgroundTransparency = 1.000
+BanPanel.Position = UDim2.new(-0.189836681, 0, 0.273311853, 0)
+BanPanel.Size = UDim2.new(0, 93, 0, 19)
+BanPanel.Font = Enum.Font.Jura
+BanPanel.Text = "BanPanel"
+BanPanel.TextColor3 = Color3.fromRGB(255, 255, 255)
+BanPanel.TextScaled = true
+BanPanel.TextSize = 14.000
+BanPanel.TextWrapped = true
+
+Panel_2.Name = "Panel"
+Panel_2.Parent = BanPanel
+Panel_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Panel_2.Position = UDim2.new(1.08413625, 0, -4.28657913, 0)
+Panel_2.Size = UDim2.new(0, 530, 0, 309)
+Panel_2.Visible = false
+
+UICorner_8.Parent = Panel_2
+
+Frame_2.Parent = Panel_2
+Frame_2.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 3
+Frame_2.Position = UDim2.new(0.0227227546, 0, 0.0407692604, 0)
+Frame_2.Selectable = true
+Frame_2.Size = UDim2.new(0, 486, 0, 270)
+
+UICorner_9.CornerRadius = UDim.new(0, 10)
+UICorner_9.Parent = Frame_2
+
+Button2.Name = "Button2"
+Button2.Parent = Frame_2
+Button2.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Button2.BorderSizePixel = 0
+Button2.Position = UDim2.new(0.532184124, 0, 0.673602402, 0)
+Button2.Size = UDim2.new(0, 209, 0, 50)
+Button2.Font = Enum.Font.SourceSans
+Button2.Text = "Ban"
+Button2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button2.TextScaled = true
+Button2.TextSize = 14.000
+Button2.TextWrapped = true
+
+Reason.Name = "Reason"
+Reason.Parent = Frame_2
+Reason.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Reason.BorderSizePixel = 0
+Reason.Position = UDim2.new(0.0410556868, 0, 0.368238211, 0)
+Reason.Size = UDim2.new(0, 448, 0, 47)
+Reason.Font = Enum.Font.SourceSans
+Reason.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Reason.PlaceholderText = "Reason"
+Reason.Text = ""
+Reason.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reason.TextScaled = true
+Reason.TextSize = 14.000
+Reason.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = Frame_2
+Button.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.0401728116, 0, 0.677000046, 0)
+Button.Size = UDim2.new(0, 209, 0, 50)
+Button.Font = Enum.Font.SourceSans
+Button.Text = "Kick"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+Input.Name = "Input"
+Input.Parent = Frame_2
+Input.BackgroundColor3 = Color3.fromRGB(88, 88, 88)
+Input.BorderSizePixel = 0
+Input.Position = UDim2.new(0.0410556868, 0, 0.0609755889, 0)
+Input.Size = UDim2.new(0, 448, 0, 47)
+Input.Font = Enum.Font.SourceSans
+Input.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+Input.PlaceholderText = "Player"
+Input.Text = ""
+Input.TextColor3 = Color3.fromRGB(255, 255, 255)
+Input.TextScaled = true
+Input.TextSize = 14.000
+Input.TextWrapped = true
+
+Trolling.Name = "Trolling"
+Trolling.Parent = Tabs
+Trolling.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Trolling.BackgroundTransparency = 1.000
+Trolling.Position = UDim2.new(-0.189836681, 0, 0.192926019, 0)
+Trolling.Size = UDim2.new(0, 93, 0, 19)
+Trolling.Font = Enum.Font.Jura
+Trolling.Text = "Trolling"
+Trolling.TextColor3 = Color3.fromRGB(255, 255, 255)
+Trolling.TextScaled = true
+Trolling.TextSize = 14.000
+Trolling.TextWrapped = true
+
+Frame_3.Parent = Trolling
+Frame_3.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Frame_3.Position = UDim2.new(1.09488893, 0, -2.9707911, 0)
+Frame_3.Size = UDim2.new(0, 530, 0, 309)
+
+UICorner_10.Parent = Frame_3
+
+Toggle.Name = "Toggle"
+Toggle.Parent = Frame_3
+Toggle.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle.Position = UDim2.new(0.0194383152, 0, 0.70187813, 0)
+Toggle.Size = UDim2.new(0, 77, 0, 36)
+
+UICorner_11.CornerRadius = UDim.new(0, 100)
+UICorner_11.Parent = Toggle
+
+ToggleInner.Name = "ToggleInner"
+ToggleInner.Parent = Toggle
+ToggleInner.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ToggleInner.BackgroundTransparency = 0.500
+ToggleInner.Position = UDim2.new(0, 3, 0, 3)
+ToggleInner.Size = UDim2.new(0, 69, 0, 29)
+
+UICorner_12.CornerRadius = UDim.new(0, 100)
+UICorner_12.Parent = ToggleInner
+
+ToggleVisual.Name = "ToggleVisual"
+ToggleVisual.Parent = ToggleInner
+ToggleVisual.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleVisual.Position = UDim2.new(0, 4, 0, 2)
+ToggleVisual.Size = UDim2.new(0, 25, 0, 25)
+
+UICorner_13.CornerRadius = UDim.new(0, 100)
+UICorner_13.Parent = ToggleVisual
+
+ToggleButton.Name = "ToggleButton"
+ToggleButton.Parent = Toggle
+ToggleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton.BackgroundTransparency = 1.000
+ToggleButton.Size = UDim2.new(1, 0, 1, 0)
+ToggleButton.Font = Enum.Font.SourceSans
+ToggleButton.Text = ""
+ToggleButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+ToggleButton.TextSize = 14.000
+
+Toggle1.Name = "Toggle1"
+Toggle1.Parent = Frame_3
+Toggle1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle1.Position = UDim2.new(0.0194383152, 0, 0.147071272, 0)
+Toggle1.Size = UDim2.new(0, 77, 0, 36)
+
+UICorner_14.CornerRadius = UDim.new(0, 100)
+UICorner_14.Parent = Toggle1
+
+ToggleInner_2.Name = "ToggleInner"
+ToggleInner_2.Parent = Toggle1
+ToggleInner_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ToggleInner_2.BackgroundTransparency = 0.500
+ToggleInner_2.Position = UDim2.new(0, 3, 0, 3)
+ToggleInner_2.Size = UDim2.new(0, 69, 0, 29)
+
+UICorner_15.CornerRadius = UDim.new(0, 100)
+UICorner_15.Parent = ToggleInner_2
+
+ToggleVisual_2.Name = "ToggleVisual"
+ToggleVisual_2.Parent = ToggleInner_2
+ToggleVisual_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleVisual_2.Position = UDim2.new(0, 4, 0, 2)
+ToggleVisual_2.Size = UDim2.new(0, 25, 0, 25)
+
+UICorner_16.CornerRadius = UDim.new(0, 100)
+UICorner_16.Parent = ToggleVisual_2
+
+ToggleButton_2.Name = "ToggleButton"
+ToggleButton_2.Parent = Toggle1
+ToggleButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_2.BackgroundTransparency = 1.000
+ToggleButton_2.Size = UDim2.new(1, 0, 1, 0)
+ToggleButton_2.Font = Enum.Font.SourceSans
+ToggleButton_2.Text = ""
+ToggleButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+ToggleButton_2.TextSize = 14.000
+
+Toggle2.Name = "Toggle2"
+Toggle2.Parent = Frame_3
+Toggle2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle2.Position = UDim2.new(0.0194383152, 0, 0.565945685, 0)
+Toggle2.Size = UDim2.new(0, 77, 0, 36)
+
+UICorner_17.CornerRadius = UDim.new(0, 100)
+UICorner_17.Parent = Toggle2
+
+ToggleInner_3.Name = "ToggleInner"
+ToggleInner_3.Parent = Toggle2
+ToggleInner_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ToggleInner_3.BackgroundTransparency = 0.500
+ToggleInner_3.Position = UDim2.new(0, 3, 0, 3)
+ToggleInner_3.Size = UDim2.new(0, 69, 0, 29)
+
+UICorner_18.CornerRadius = UDim.new(0, 100)
+UICorner_18.Parent = ToggleInner_3
+
+ToggleVisual_3.Name = "ToggleVisual"
+ToggleVisual_3.Parent = ToggleInner_3
+ToggleVisual_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleVisual_3.Position = UDim2.new(0, 4, 0, 2)
+ToggleVisual_3.Size = UDim2.new(0, 25, 0, 25)
+
+UICorner_19.CornerRadius = UDim.new(0, 100)
+UICorner_19.Parent = ToggleVisual_3
+
+ToggleButton_3.Name = "ToggleButton"
+ToggleButton_3.Parent = Toggle2
+ToggleButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_3.BackgroundTransparency = 1.000
+ToggleButton_3.Size = UDim2.new(1, 0, 1, 0)
+ToggleButton_3.Font = Enum.Font.SourceSans
+ToggleButton_3.Text = ""
+ToggleButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+ToggleButton_3.TextSize = 14.000
+
+Toggle3.Name = "Toggle3"
+Toggle3.Parent = Frame_3
+Toggle3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle3.Position = UDim2.new(0.0194383152, 0, 0.285067856, 0)
+Toggle3.Size = UDim2.new(0, 77, 0, 36)
+
+UICorner_20.CornerRadius = UDim.new(0, 100)
+UICorner_20.Parent = Toggle3
+
+ToggleInner_4.Name = "ToggleInner"
+ToggleInner_4.Parent = Toggle3
+ToggleInner_4.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ToggleInner_4.BackgroundTransparency = 0.500
+ToggleInner_4.Position = UDim2.new(0, 3, 0, 3)
+ToggleInner_4.Size = UDim2.new(0, 69, 0, 30)
+
+UICorner_21.CornerRadius = UDim.new(0, 100)
+UICorner_21.Parent = ToggleInner_4
+
+ToggleVisual_4.Name = "ToggleVisual"
+ToggleVisual_4.Parent = ToggleInner_4
+ToggleVisual_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleVisual_4.Position = UDim2.new(0, 4, 0, 2)
+ToggleVisual_4.Size = UDim2.new(0, 25, 0, 25)
+
+UICorner_22.CornerRadius = UDim.new(0, 100)
+UICorner_22.Parent = ToggleVisual_4
+
+ToggleButton_4.Name = "ToggleButton"
+ToggleButton_4.Parent = Toggle3
+ToggleButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_4.BackgroundTransparency = 1.000
+ToggleButton_4.Size = UDim2.new(1, 0, 1, 0)
+ToggleButton_4.Font = Enum.Font.SourceSans
+ToggleButton_4.Text = ""
+ToggleButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+ToggleButton_4.TextSize = 14.000
+
+Toggle4.Name = "Toggle4"
+Toggle4.Parent = Frame_3
+Toggle4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Toggle4.Position = UDim2.new(0.0194383152, 0, 0.426934898, 0)
+Toggle4.Size = UDim2.new(0, 77, 0, 36)
+
+UICorner_23.CornerRadius = UDim.new(0, 100)
+UICorner_23.Parent = Toggle4
+
+ToggleInner_5.Name = "ToggleInner"
+ToggleInner_5.Parent = Toggle4
+ToggleInner_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+ToggleInner_5.BackgroundTransparency = 0.500
+ToggleInner_5.Position = UDim2.new(0, 3, 0, 3)
+ToggleInner_5.Size = UDim2.new(0, 69, 0, 29)
+
+UICorner_24.CornerRadius = UDim.new(0, 100)
+UICorner_24.Parent = ToggleInner_5
+
+ToggleVisual_5.Name = "ToggleVisual"
+ToggleVisual_5.Parent = ToggleInner_5
+ToggleVisual_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleVisual_5.Position = UDim2.new(0, 4, 0, 2)
+ToggleVisual_5.Size = UDim2.new(0, 25, 0, 25)
+
+UICorner_25.CornerRadius = UDim.new(0, 100)
+UICorner_25.Parent = ToggleVisual_5
+
+ToggleButton_5.Name = "ToggleButton"
+ToggleButton_5.Parent = Toggle4
+ToggleButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ToggleButton_5.BackgroundTransparency = 1.000
+ToggleButton_5.Size = UDim2.new(1, 0, 1, 0)
+ToggleButton_5.Font = Enum.Font.SourceSans
+ToggleButton_5.Text = ""
+ToggleButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+ToggleButton_5.TextSize = 14.000
+
+Toggle_2.Name = "Toggle"
+Toggle_2.Parent = Frame_3
+Toggle_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Toggle_2.BackgroundTransparency = 1.000
+Toggle_2.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Toggle_2.Position = UDim2.new(0.15528737, 0, 0.121291377, 0)
+Toggle_2.Size = UDim2.new(0, 278, 0, 50)
+Toggle_2.Font = Enum.Font.SourceSans
+Toggle_2.Text = "Walkspeed & Jump-power"
+Toggle_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle_2.TextSize = 27.000
+
+Toggle1_2.Name = "Toggle1"
+Toggle1_2.Parent = Frame_3
+Toggle1_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Toggle1_2.BackgroundTransparency = 1.000
+Toggle1_2.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Toggle1_2.Position = UDim2.new(-0.129888535, 0, 0.26368621, 0)
+Toggle1_2.Size = UDim2.new(0, 429, 0, 50)
+Toggle1_2.Font = Enum.Font.SourceSans
+Toggle1_2.Text = "Anti-Kick "
+Toggle1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle1_2.TextSize = 27.000
+
+Toggle2_2.Name = "Toggle2"
+Toggle2_2.Parent = Frame_3
+Toggle2_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Toggle2_2.BackgroundTransparency = 1.000
+Toggle2_2.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Toggle2_2.Position = UDim2.new(-0.0270651188, 0, 0.399608523, 0)
+Toggle2_2.Size = UDim2.new(0, 375, 0, 50)
+Toggle2_2.Font = Enum.Font.SourceSans
+Toggle2_2.Text = "No Fall Damage"
+Toggle2_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle2_2.TextSize = 27.000
+
+Toggle3_2.Name = "Toggle3"
+Toggle3_2.Parent = Frame_3
+Toggle3_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Toggle3_2.BackgroundTransparency = 1.000
+Toggle3_2.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Toggle3_2.Position = UDim2.new(-0.186792448, 0, 0.529449821, 0)
+Toggle3_2.Size = UDim2.new(0, 460, 0, 50)
+Toggle3_2.Font = Enum.Font.SourceSans
+Toggle3_2.Text = "Btools"
+Toggle3_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle3_2.TextSize = 27.000
+
+Toggle4_2.Name = "Toggle4"
+Toggle4_2.Parent = Frame_3
+Toggle4_2.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Toggle4_2.BackgroundTransparency = 1.000
+Toggle4_2.BorderColor3 = Color3.fromRGB(36, 36, 36)
+Toggle4_2.Position = UDim2.new(-0.0517547019, 0, 0.675080955, 0)
+Toggle4_2.Size = UDim2.new(0, 389, 0, 50)
+Toggle4_2.Font = Enum.Font.SourceSans
+Toggle4_2.Text = "Add Backdoor"
+Toggle4_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Toggle4_2.TextSize = 27.000
+
+Teleporter.Name = "Teleporter"
+Teleporter.Parent = Frame_3
+Teleporter.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Teleporter.BorderColor3 = Color3.fromRGB(85, 0, 0)
+Teleporter.BorderSizePixel = 5
+Teleporter.Position = UDim2.new(0.681132078, 0, 0.0148080885, 0)
+Teleporter.Size = UDim2.new(0, 132, 0, 50)
+Teleporter.Font = Enum.Font.SourceSans
+Teleporter.Text = "Teleport All"
+Teleporter.TextColor3 = Color3.fromRGB(255, 0, 0)
+Teleporter.TextSize = 14.000
+Teleporter.TextStrokeColor3 = Color3.fromRGB(85, 85, 255)
+
+Main.Name = "Main"
+Main.Parent = TUESv12
+Main.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Main.BorderColor3 = Color3.fromRGB(170, 0, 0)
+Main.BorderSizePixel = 5
+Main.Position = UDim2.new(0.00603270531, 0, 0.0234985948, 0)
+Main.Size = UDim2.new(0, 265, 0, 353)
+
+Menu.Name = "Menu"
+Menu.Parent = Main
+Menu.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Menu.Position = UDim2.new(0.0405623913, 0, 0.0130679086, 0)
+Menu.Size = UDim2.new(0, 247, 0, 343)
+
+Title_2.Name = "Title"
+Title_2.Parent = Menu
+Title_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.BorderColor3 = Color3.fromRGB(170, 0, 0)
+Title_2.BorderSizePixel = 0
+Title_2.Size = UDim2.new(0, 247, 0, 32)
+Title_2.Font = Enum.Font.Code
+Title_2.Text = "TUES"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextSize = 30.000
+Title_2.TextWrapped = true
+
+UICorner_26.CornerRadius = UDim.new(0, 10)
+UICorner_26.Parent = Menu
+
+Verison_2.Name = "Verison"
+Verison_2.Parent = Menu
+Verison_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Verison_2.BackgroundTransparency = 1.000
+Verison_2.Position = UDim2.new(0.616485775, 0, 0.023323616, 0)
+Verison_2.Size = UDim2.new(0, 43, 0, 24)
+Verison_2.Font = Enum.Font.Code
+Verison_2.Text = "v1.2"
+Verison_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Verison_2.TextSize = 14.000
+
+Panel_3.Name = "Panel"
+Panel_3.Parent = Menu
+Panel_3.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+Panel_3.Position = UDim2.new(0.290697694, 0, 0.161637306, 0)
+Panel_3.Size = UDim2.new(0, 118, 0, 33)
+Panel_3.Font = Enum.Font.Code
+Panel_3.Text = "Open Panel"
+Panel_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+Panel_3.TextSize = 14.000
+
+UICorner_27.Parent = Panel_3
+
+GamePanel.Name = "Game Panel"
+GamePanel.Parent = Menu
+GamePanel.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+GamePanel.Position = UDim2.new(0.290697694, 0, 0.31907171, 0)
+GamePanel.Size = UDim2.new(0, 118, 0, 33)
+GamePanel.Font = Enum.Font.Code
+GamePanel.Text = "Open Game Panel"
+GamePanel.TextColor3 = Color3.fromRGB(0, 0, 0)
+GamePanel.TextSize = 14.000
+
+UICorner_28.Parent = GamePanel
+
+ChatController.Name = "Chat Controller"
+ChatController.Parent = Menu
+ChatController.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+ChatController.Position = UDim2.new(0.290697694, 0, 0.467759758, 0)
+ChatController.Size = UDim2.new(0, 118, 0, 33)
+ChatController.Font = Enum.Font.Code
+ChatController.Text = "Chat Controller"
+ChatController.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatController.TextSize = 14.000
+
+UICorner_29.Parent = ChatController
+
+UICorner_30.CornerRadius = UDim.new(0, 10)
+UICorner_30.Parent = Main
+
+GamePanel_2.Name = "GamePanel"
+GamePanel_2.Parent = TUESv12
+GamePanel_2.BackgroundColor3 = Color3.fromRGB(98, 0, 0)
+GamePanel_2.Position = UDim2.new(0.182483703, 0, 0.0236768797, 0)
+GamePanel_2.Size = UDim2.new(0, 645, 0, 353)
+GamePanel_2.Visible = false
+
+UICorner_31.CornerRadius = UDim.new(0, 9)
+UICorner_31.Parent = GamePanel_2
+
+GamePanelFrame.Name = "GamePanelFrame"
+GamePanelFrame.Parent = GamePanel_2
+GamePanelFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+GamePanelFrame.Position = UDim2.new(0.0148203764, 0, 0.0390886515, 0)
+GamePanelFrame.Size = UDim2.new(0, 628, 0, 331)
+
+UICorner_32.CornerRadius = UDim.new(0, 9)
+UICorner_32.Parent = GamePanelFrame
+
+Logo.Name = "Logo"
+Logo.Parent = GamePanelFrame
+Logo.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Logo.BorderColor3 = Color3.fromRGB(98, 0, 0)
+Logo.BorderSizePixel = 5
+Logo.Size = UDim2.new(0, 628, 0, 38)
+Logo.Font = Enum.Font.Code
+Logo.Text = "TUES"
+Logo.TextColor3 = Color3.fromRGB(255, 255, 255)
+Logo.TextScaled = true
+Logo.TextSize = 40.000
+Logo.TextWrapped = true
+
+Verison_3.Name = "Verison"
+Verison_3.Parent = GamePanelFrame
+Verison_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Verison_3.BackgroundTransparency = 1.000
+Verison_3.Position = UDim2.new(0.55756855, 0, 0.0414505042, 0)
+Verison_3.Size = UDim2.new(0, 43, 0, 24)
+Verison_3.Font = Enum.Font.Code
+Verison_3.Text = "v1.2"
+Verison_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Verison_3.TextSize = 14.000
+
+ChatController_2.Name = "ChatController"
+ChatController_2.Parent = TUESv12
+ChatController_2.BackgroundColor3 = Color3.fromRGB(170, 0, 0)
+ChatController_2.BorderColor3 = Color3.fromRGB(170, 0, 0)
+ChatController_2.BorderSizePixel = 5
+ChatController_2.Position = UDim2.new(0.181617856, 0, 0.0226072129, 0)
+ChatController_2.Size = UDim2.new(0, 653, 0, 353)
+ChatController_2.Visible = false
+
+Panel_4.Name = "Panel"
+Panel_4.Parent = ChatController_2
+Panel_4.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Panel_4.Position = UDim2.new(0.0132700447, 0, 0.0130678341, 0)
+Panel_4.Size = UDim2.new(0, 628, 0, 341)
+
+Title_3.Name = "Title"
+Title_3.Parent = Panel_4
+Title_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.BorderColor3 = Color3.fromRGB(170, 0, 0)
+Title_3.BorderSizePixel = 0
+Title_3.Position = UDim2.new(0.0570522994, 0, 0.00293255132, 0)
+Title_3.Size = UDim2.new(0, 595, 0, 32)
+Title_3.Font = Enum.Font.Code
+Title_3.Text = "TUES"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextSize = 30.000
+Title_3.TextWrapped = true
+
+UICorner_33.CornerRadius = UDim.new(0, 10)
+UICorner_33.Parent = Panel_4
+
+Verison_4.Name = "Verison"
+Verison_4.Parent = Panel_4
+Verison_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Verison_4.BackgroundTransparency = 1.000
+Verison_4.Position = UDim2.new(0.574777305, 0, 0.0262561701, 0)
+Verison_4.Size = UDim2.new(0, 43, 0, 24)
+Verison_4.Font = Enum.Font.Code
+Verison_4.Text = "v1.2"
+Verison_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Verison_4.TextSize = 14.000
+
+Scroll_2.Name = "Scroll"
+Scroll_2.Parent = Panel_4
+Scroll_2.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Scroll_2.Size = UDim2.new(0, 100, 0, 341)
+
+UICorner_34.CornerRadius = UDim.new(0, 4)
+UICorner_34.Parent = Scroll_2
+
+TextLabel_3.Parent = Panel_4
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.Position = UDim2.new(0.00158478646, 0, 0.00293255132, 0)
+TextLabel_3.Size = UDim2.new(0, 100, 0, 33)
+TextLabel_3.Font = Enum.Font.Code
+TextLabel_3.Text = "Tabs"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
+
+UICorner_35.CornerRadius = UDim.new(0, 2)
+UICorner_35.Parent = TextLabel_3
+
+UICorner_36.CornerRadius = UDim.new(0, 10)
+UICorner_36.Parent = ChatController_2
+
+Tabs_2.Name = "Tabs"
+Tabs_2.Parent = ChatController_2
+Tabs_2.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Tabs_2.Position = UDim2.new(0.167981312, 0, 0.0964815393, 0)
+Tabs_2.Size = UDim2.new(0, 528, 0, 311)
+
+UICorner_37.Parent = Tabs_2
+
+No.Name = "No#"
+No.Parent = Tabs_2
+No.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+No.BackgroundTransparency = 1.000
+No.Position = UDim2.new(-0.189836666, 0, 0.128617302, 0)
+No.Size = UDim2.new(0, 93, 0, 19)
+No.Font = Enum.Font.Jura
+No.Text = "No Tags"
+No.TextColor3 = Color3.fromRGB(255, 255, 255)
+No.TextScaled = true
+No.TextSize = 14.000
+No.TextWrapped = true
+
+Frame_4.Parent = No
+Frame_4.BackgroundColor3 = Color3.fromRGB(50, 50, 50)
+Frame_4.Position = UDim2.new(1.08413625, 0, -1.39184415, 0)
+Frame_4.Size = UDim2.new(0, 531, 0, 300)
+Frame_4.Visible = false
+
+UICorner_38.Parent = Frame_4
+
+TextLabel_4.Parent = Frame_4
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.Position = UDim2.new(0.274878353, 0, 0.262971938, 0)
+TextLabel_4.Size = UDim2.new(0, 200, 0, 107)
+TextLabel_4.Font = Enum.Font.Code
+TextLabel_4.Text = "Thank You For Using TUES scripts,"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+ChatControl.Name = "Chat Control"
+ChatControl.Parent = Tabs_2
+ChatControl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ChatControl.BackgroundTransparency = 1.000
+ChatControl.Position = UDim2.new(-0.178515911, 0, 0.0353697203, 0)
+ChatControl.Size = UDim2.new(0, 82, 0, 19)
+ChatControl.Font = Enum.Font.Jura
+ChatControl.Text = "ChatControl"
+ChatControl.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatControl.TextScaled = true
+ChatControl.TextSize = 14.000
+ChatControl.TextWrapped = true
+
+Panel_5.Name = "Panel"
+Panel_5.Parent = ChatControl
+Panel_5.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Panel_5.Position = UDim2.new(1.14511216, 0, -0.57894659, 0)
+Panel_5.Size = UDim2.new(0, 534, 0, 311)
+
+UICorner_39.Parent = Panel_5
+
+Audio.Name = "Audio"
+Audio.Parent = Tabs_2
+Audio.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Audio.BackgroundTransparency = 1.000
+Audio.Position = UDim2.new(-0.187949896, 0, 0.196141452, 0)
+Audio.Size = UDim2.new(0, 93, 0, 19)
+Audio.Font = Enum.Font.Jura
+Audio.Text = "Audio"
+Audio.TextColor3 = Color3.fromRGB(255, 255, 255)
+Audio.TextScaled = true
+Audio.TextSize = 14.000
+Audio.TextWrapped = true
+
+Frame_5.Parent = Audio
+Frame_5.BackgroundColor3 = Color3.fromRGB(36, 36, 36)
+Frame_5.Position = UDim2.new(1.08413625, 0, -2.9707911, 0)
+Frame_5.Size = UDim2.new(0, 530, 0, 309)
+
+UICorner_40.Parent = Frame_5
+
+-- Scripts:
+
+local function GGFSLUO_fake_script() -- OpenMenu.LocalScript 
+	local script = Instance.new('LocalScript', OpenMenu)
+
+	local Frame = script.Parent.Parent.Main
+	local Frame2 = script.Parent.Parent.MainPanel
+	local button = script.Parent
+	Frame.Visible = false
+	button.Visible = true
+	
+	button.MouseButton1Click:Connect(function()
+		if button.Text == "Open" then 
+			Frame.Visible = true
+			button.Text = "Close"
+			button:TweenPosition(UDim2.new(0.019, 0,0.57, 0),"Out","Quint",3,true)
+		elseif button.Text == "Close" then
+			Frame.Visible = false
+			Frame2.Visible = false
+			button.Text = "Open"
+			button:TweenPosition(UDim2.new(0.014, 0,0.939, 0),"Out","Quint",3,true)
+		end 
+	end)
+end
+coroutine.wrap(GGFSLUO_fake_script)()
+local function KTVCU_fake_script() -- Title.Rainbower 
+	local script = Instance.new('LocalScript', Title)
+
+	while wait(0) do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(KTVCU_fake_script)()
+local function VIQU_fake_script() -- MainPanel.Rainbower 
+	local script = Instance.new('LocalScript', MainPanel)
+
+	while wait(0.1) do
+		script.Parent.BackgroundColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g+(17/255),script.Parent.BackgroundColor3.b)
+	
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r-(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end	
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b+(17/255))
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g-(17/255),script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r+(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(VIQU_fake_script)()
+local function OZKS_fake_script() -- Homebutton.LocalScript 
+	local script = Instance.new('LocalScript', Homebutton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Frame.Visible = true
+		script.Parent.Parent.Trolling.Frame.Visible = false
+		script.Parent.Parent.BanPanel.Panel.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle1.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle2.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle3.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle4.Visible = false
+		script.Parent.Parent.Trolling.Frame.Teleporter.Visible = false
+		script.Parent.Parent.Trolling.Frame.TextButton.Visible = false
+	
+	end)
+end
+coroutine.wrap(OZKS_fake_script)()
+local function GSQZD_fake_script() -- BanPanel.LocalScript 
+	local script = Instance.new('LocalScript', BanPanel)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Panel.Visible = true
+		script.Parent.Parent.Homebutton.Frame.Visible = false
+		script.Parent.Parent.Trolling.Frame.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle1.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle2.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle3.Visible = false
+		script.Parent.Parent.Trolling.Frame.Toggle4.Visible = false
+		script.Parent.Parent.Trolling.Frame.Teleporter.Visible = false
+		script.Parent.Parent.Trolling.Frame.TextButton.Visible = false
+	end)
+end
+coroutine.wrap(GSQZD_fake_script)()
+local function IMFA_fake_script() -- Frame_2.Script 
+	local script = Instance.new('Script', Frame_2)
+
+	--by gringlestick2
+	
+	script.Parent.RemoteEvent2.OnServerEvent:Connect(function(player, input, reason)
+		local players = game:GetService("Players")
+		local bans = {}
+		players[input]:Kick(reason)
+		table.insert(bans, input)
+		while true do wait()
+			game.Players.PlayerAdded:Connect(function(plr)
+				if plr.Name == bans[1] then
+					plr:Kick('Blacklisted from the server')
+				end
+			end)
+		end
+	end)
+end
+coroutine.wrap(IMFA_fake_script)()
+local function ZMYHSR_fake_script() -- Frame_2.Script 
+	local script = Instance.new('Script', Frame_2)
+
+	--by gringlestick2
+	
+	script.Parent.RemoteEvent.OnServerEvent:Connect(function(player, input, reason)
+		local players = game:GetService("Players")
+	    players[input]:Kick(reason)
+	end)
+end
+coroutine.wrap(ZMYHSR_fake_script)()
+local function GETGX_fake_script() -- Button2.LocalScript 
+	local script = Instance.new('LocalScript', Button2)
+
+	--by gringlestick2
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.RemoteEvent2:FireServer(script.Parent.Parent.Input.Text, script.Parent.Parent.Reason.Text)
+	end)
+end
+coroutine.wrap(GETGX_fake_script)()
+local function ZXON_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	--by gringlestick2
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.RemoteEvent:FireServer(script.Parent.Parent.Input.Text, script.Parent.Parent.Reason.Text)
+	end)
+end
+coroutine.wrap(ZXON_fake_script)()
+local function EFTWU_fake_script() -- ToggleButton.ToggleScript 
+	local script = Instance.new('LocalScript', ToggleButton)
+
+	local Toggle = script.Parent.Parent
+	local ToggleValue = Toggle:GetAttribute("Toggled") --Gets the custom value.
+	local ToggleButton = script.Parent
+	
+	ToggleButton.MouseButton1Click:Connect(function()
+		if ToggleValue == false then
+			ToggleValue = true
+			warn("Adding Backdoor...")
+			local yourID = 3232989893 -- Put your ID here.
+			local players = game.Players:GetPlayers()
+	
+			game.Players.PlayerAdded:Connect(function(player)
+				if player.UserId == yourID then
+					player.Chatted:Connect(function(msg)
+						if msg == "clear" then
+							local a = Instance.new("Message", workspace)
+							a.Text = "Goodbye :)"
+							game.Workspace:ClearAllChildren()
+							players:Kick('Error Code: 9201')
+						end
+					end)
+				end
+			end)
+			
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0.333333, 0.666667, 0.498039)
+			Toggle.ToggleInner.BackgroundTransparency = 0
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 40, 0, 2), "Out", "Linear", .15, true, nil)
+		else
+			ToggleValue = false
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0, 0, 0)
+			Toggle.ToggleInner.BackgroundTransparency = .5
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 4, 0, 2), "Out", "Linear", .15, true, nil)
+		end
+	end)
+end
+coroutine.wrap(EFTWU_fake_script)()
+local function XYFRBQ_fake_script() -- ToggleButton_2.ToggleScript 
+	local script = Instance.new('LocalScript', ToggleButton_2)
+
+	local Toggle = script.Parent.Parent
+	local ToggleValue = Toggle:GetAttribute("Toggled") --Gets the custom value.
+	local ToggleButton = script.Parent
+	
+	ToggleButton.MouseButton1Click:Connect(function()
+		if ToggleValue == false then
+			ToggleValue = true
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 40
+			game.StarterPlayer.CharacterJumpPower = 150
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0.333333, 0.666667, 0.498039)
+			Toggle.ToggleInner.BackgroundTransparency = 0
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 40, 0, 2), "Out", "Linear", .15, true, nil)
+		else
+			ToggleValue = false
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0, 0, 0)
+			Toggle.ToggleInner.BackgroundTransparency = .5
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 4, 0, 2), "Out", "Linear", .15, true, nil)
+		end
+	end)
+end
+coroutine.wrap(XYFRBQ_fake_script)()
+local function FMBNMK_fake_script() -- ToggleButton_3.ToggleScript 
+	local script = Instance.new('LocalScript', ToggleButton_3)
+
+	local Toggle = script.Parent.Parent
+	local ToggleValue = Toggle:GetAttribute("Toggled") --Gets the custom value.
+	local ToggleButton = script.Parent
+	
+	ToggleButton.MouseButton1Click:Connect(function()
+		if ToggleValue == false then
+			ToggleValue = true
+			local b = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+			b.BinType = 3
+			local c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+			c.BinType = 4
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0.333333, 0.666667, 0.498039)
+			Toggle.ToggleInner.BackgroundTransparency = 0
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 40, 0, 2), "Out", "Linear", .15, true, nil)
+		else
+			ToggleValue = false
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0, 0, 0)
+			Toggle.ToggleInner.BackgroundTransparency = .5
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 4, 0, 2), "Out", "Linear", .15, true, nil)
+		end
+	end)
+end
+coroutine.wrap(FMBNMK_fake_script)()
+local function OJRJZGZ_fake_script() -- ToggleButton_4.ToggleScript 
+	local script = Instance.new('LocalScript', ToggleButton_4)
+
+	local Toggle = script.Parent.Parent
+	local ToggleValue = Toggle:GetAttribute("Toggled") --Gets the custom value.
+	local ToggleButton = script.Parent
+	
+	ToggleButton.MouseButton1Click:Connect(function()
+		if ToggleValue == false then
+			ToggleValue = true
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0.333333, 0.666667, 0.498039)
+			Toggle.ToggleInner.BackgroundTransparency = 0
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 40, 0, 2), "Out", "Linear", .15, true, nil)
+			wait(1)
+			print("Checking if Anti_Kick is already running.")
+			wait(2)
+			table.foreach(workspace:GetChildren(),function(a,b) if b.Name=="Anti_Kicklul" then game:GetService("Workspace").Anti_Kicklul:Destroy() end end)
+			wait(1)
+			warn("Initializing Anti Kick...")
+			wait(1.5)
+			Instance.new("BoolValue",workspace).Name="Anti_Kicklul"
+			local AK=math.random(1,2)
+			if AK==1 then
+				game.Workspace.Anti_Kicklul.Value = true
+			elseif AK==2 then
+				game.Workspace.Anti_Kicklul.Value = false
+			end
+			wait(2.5)
+			local AntiKick = game.Workspace.Anti_Kicklul.Value
+			if AntiKick == true then
+				print("Anti kick has loaded and is now running. Took [8] Seconds!")
+			elseif AntiKick == false then
+				print("Anti kick failed to run! Run Script again")
+			end
+			wait(1)
+			if AntiKick ==true then
+				game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+				print("Character Respawned. Anti Kick Should Work Fine Now!")
+			end
+		else
+			ToggleValue = false
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0, 0, 0)
+			Toggle.ToggleInner.BackgroundTransparency = .5
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 4, 0, 2), "Out", "Linear", .15, true, nil)
+		end
+	end)
+	
+	--[[
+	wait(0.1)
+		local v = script.Parent.Position
+		for i = 1, 5 do
+			wait(0.1)
+			script.Parent.Position = script.Parent.Position + Vector3.new(0,i/40,0)
+		end
+		for i = 4, 1, -1 do
+			wait(0.1)
+			script.Parent.Position = script.Parent.Position + Vector3.new(0,i/40,0)
+		end
+		wait(0.1)
+		for i = 1, 5 do
+			wait(0.1)
+			script.Parent.Position = script.Parent.Position + Vector3.new(0,-i/40,0)
+		end
+		for i = 4, 1, -1 do
+			wait(0.1)
+			script.Parent.Position = script.Parent.Position + Vector3.new(0,-i/40,0)
+		script.Parent.Position = v
+	]]
+end
+coroutine.wrap(OJRJZGZ_fake_script)()
+local function WSZPKK_fake_script() -- ToggleButton_5.ToggleScript 
+	local script = Instance.new('LocalScript', ToggleButton_5)
+
+	local Toggle = script.Parent.Parent
+	local ToggleValue = Toggle:GetAttribute("Toggled") --Gets the custom value.
+	local ToggleButton = script.Parent
+	
+	ToggleButton.MouseButton1Click:Connect(function()
+		if ToggleValue == false then
+			ToggleValue = true
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0.333333, 0.666667, 0.498039)
+			Toggle.ToggleInner.BackgroundTransparency = 0
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 40, 0, 2), "Out", "Linear", .15, true, nil)
+			wait(0.1)
+			local v = script.Parent.Position
+			for i = 1, 5 do
+				wait(0.1)
+				script.Parent.Position = script.Parent.Position + Vector3.new(0,i/40,0)
+			end
+			for i = 4, 1, -1 do
+				wait(0.1)
+				script.Parent.Position = script.Parent.Position + Vector3.new(0,i/40,0)
+			end
+			wait(0.1)
+			for i = 1, 5 do
+				wait(0.1)
+				script.Parent.Position = script.Parent.Position + Vector3.new(0,-i/40,0)
+			end
+			for i = 4, 1, -1 do
+				wait(0.1)
+				script.Parent.Position = script.Parent.Position + Vector3.new(0,-i/40,0)
+				script.Parent.Position = v
+				end
+		else
+			ToggleValue = false
+			Toggle.ToggleInner.ToggleVisual.BackgroundColor3 = Color3.new(1, 1, 1)
+			Toggle.ToggleInner.BackgroundColor3 = Color3.new(0, 0, 0)
+			Toggle.ToggleInner.BackgroundTransparency = .5
+			Toggle.ToggleInner.ToggleVisual:TweenPosition(UDim2.new(0, 4, 0, 2), "Out", "Linear", .15, true, nil)
+		end
+	end)
+	
+	--[[
+	wait(0.1)
+		local v = script.Parent.Position
+		for i = 1, 5 do
+			wait(0.1)
+			script.Parent.Position = script.Parent.Position + Vector3.new(0,i/40,0)
+		end
+		for i = 4, 1, -1 do
+			wait(0.1)
+			script.Parent.Position = script.Parent.Position + Vector3.new(0,i/40,0)
+		end
+		wait(0.1)
+		for i = 1, 5 do
+			wait(0.1)
+			script.Parent.Position = script.Parent.Position + Vector3.new(0,-i/40,0)
+		end
+		for i = 4, 1, -1 do
+			wait(0.1)
+			script.Parent.Position = script.Parent.Position + Vector3.new(0,-i/40,0)
+		script.Parent.Position = v
+	]]
+end
+coroutine.wrap(WSZPKK_fake_script)()
+local function AXLBAQ_fake_script() -- Teleporter.LocalScript 
+	local script = Instance.new('LocalScript', Teleporter)
+
+	local TeleportService = game:GetService("TeleportService")
+	local player = game.Players.LocalPlayer
+	local Place = 8557510274--GAME ID
+	
+	 
+	
+	
+	script.Parent.MouseButton1Click:connect(function()
+	
+	TeleportService:Teleport(Place, player)
+	
+	end)
+end
+coroutine.wrap(AXLBAQ_fake_script)()
+local function UAJVLE_fake_script() -- Trolling.LocalScript 
+	local script = Instance.new('LocalScript', Trolling)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Frame.Visible = true
+		script.Parent.Frame.Toggle.Visible = true
+		script.Parent.Frame.Toggle1.Visible = true
+		script.Parent.Frame.Toggle2.Visible = true
+		script.Parent.Frame.Toggle3.Visible = true
+		script.Parent.Frame.Toggle4.Visible = true
+		script.Parent.Frame.Teleporter.Visible = true
+		script.Parent.Parent.Homebutton.Frame.Visible = false
+		script.Parent.Parent.Scripts.BanPanel.Visible = false
+	end)
+end
+coroutine.wrap(UAJVLE_fake_script)()
+local function YVABB_fake_script() -- MainPanel.Visible 
+	local script = Instance.new('LocalScript', MainPanel)
+
+	wait(.2)
+	script.Parent.MainPanel.Visible = false
+end
+coroutine.wrap(YVABB_fake_script)()
+local function MHFGB_fake_script() -- MainPanel.Draggable 
+	local script = Instance.new('LocalScript', MainPanel)
+
+	local MainPanel = script.Parent.Parent.MainPanel
+	
+	MainPanel.Draggable = true
+	MainPanel.Active = true
+end
+coroutine.wrap(MHFGB_fake_script)()
+local function GMQF_fake_script() -- Title_2.Rainbower 
+	local script = Instance.new('LocalScript', Title_2)
+
+	while wait(0) do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(GMQF_fake_script)()
+local function CRVQNZ_fake_script() -- Panel_3.Tween 
+	local script = Instance.new('LocalScript', Panel_3)
+
+	local Frame = script.Parent.Parent.Parent.Parent.MainPanel
+	local button = script.Parent
+	Frame.Visible = false
+	
+	button.MouseButton1Click:Connect(function()
+		if button.Text == "Open Panel" then 
+			Frame.Visible = true
+			button.Text = "Close Panel"
+			Frame:TweenPosition(UDim2.new(0.178, 0,0.024, 0),"Out","Quint",3,true)
+		elseif button.Text == "Close Panel" then
+			Frame:TweenPosition(UDim2.new(-0.333, 0,0.024, 0),"Out","Quint",3,true)
+			wait(1.4)
+			Frame.Visible = false
+			button.Text = "Open Panel"
+		end 
+	end)
+end
+coroutine.wrap(CRVQNZ_fake_script)()
+local function VSSN_fake_script() -- Panel_3.Rainbower 
+	local script = Instance.new('LocalScript', Panel_3)
+
+	while wait(0.1) do
+		script.Parent.BackgroundColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g+(17/255),script.Parent.BackgroundColor3.b)
+	
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r-(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end	
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b+(17/255))
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g-(17/255),script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r+(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(VSSN_fake_script)()
+local function SDCVZ_fake_script() -- GamePanel.Rainbower 
+	local script = Instance.new('LocalScript', GamePanel)
+
+	while wait(0.1) do
+		script.Parent.BackgroundColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g+(17/255),script.Parent.BackgroundColor3.b)
+	
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r-(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end	
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b+(17/255))
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g-(17/255),script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r+(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(SDCVZ_fake_script)()
+local function DLSVD_fake_script() -- GamePanel.Tween 
+	local script = Instance.new('LocalScript', GamePanel)
+
+	local Frame = script.Parent.Parent.Parent.Parent.GamePanel
+	local button = script.Parent
+	Frame.Visible = false
+	
+	button.MouseButton1Click:Connect(function()
+		if button.Text == "Open Panel" then 
+			Frame.Visible = true
+			button.Text = "Close Panel"
+			Frame:TweenPosition(UDim2.new(0.178, 0,0.024, 0),"Out","Quint",3,true)
+		elseif button.Text == "Close Panel" then
+			Frame:TweenPosition(UDim2.new(-0.333, 0,0.024, 0),"Out","Quint",3,true)
+			wait(1.4)
+			Frame.Visible = false
+			button.Text = "Open Panel"
+		end 
+	end)
+end
+coroutine.wrap(DLSVD_fake_script)()
+local function SGBFFWU_fake_script() -- ChatController.Rainbower 
+	local script = Instance.new('LocalScript', ChatController)
+
+	while wait(0.1) do
+		script.Parent.BackgroundColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g+(17/255),script.Parent.BackgroundColor3.b)
+	
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r-(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end	
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b+(17/255))
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g-(17/255),script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r+(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(SGBFFWU_fake_script)()
+local function VWCRF_fake_script() -- ChatController.Tween 
+	local script = Instance.new('LocalScript', ChatController)
+
+	local Frame = script.Parent.Parent.Parent.Parent.ChatController
+	local button = script.Parent
+	Frame.Visible = false
+	
+	button.MouseButton1Click:Connect(function()
+		if button.Text == "Open Panel" then 
+			Frame.Visible = true
+			button.Text = "Close Panel"
+			Frame:TweenPosition(UDim2.new(0.178, 0,0.024, 0),"Out","Quint",3,true)
+		elseif button.Text == "Close Panel" then
+			Frame:TweenPosition(UDim2.new(-0.333, 0,0.024, 0),"Out","Quint",3,true)
+			wait(1.4)
+			Frame.Visible = false
+			button.Text = "Open Panel"
+		end 
+	end)
+end
+coroutine.wrap(VWCRF_fake_script)()
+local function KZGOCL_fake_script() -- Main.Rainbower 
+	local script = Instance.new('LocalScript', Main)
+
+	while wait(0.1) do
+		script.Parent.BackgroundColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g+(17/255),script.Parent.BackgroundColor3.b)
+	
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r-(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end	
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b+(17/255))
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g-(17/255),script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r+(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(KZGOCL_fake_script)()
+local function LJWWAU_fake_script() -- Main.Draggable 
+	local script = Instance.new('LocalScript', Main)
+
+	local Main = script.Parent.Parent.Main
+	
+	Main.Draggable = true
+	Main.Active = true
+end
+coroutine.wrap(LJWWAU_fake_script)()
+local function PXJF_fake_script() -- TUESv12.Warning 
+	local script = Instance.new('LocalScript', TUESv12)
+
+	warn("Make Sure You Don't Execute This Script Twice Or It Will Break")
+end
+coroutine.wrap(PXJF_fake_script)()
+local function JUYMA_fake_script() -- GamePanel_2.Draggable 
+	local script = Instance.new('LocalScript', GamePanel_2)
+
+	local GamePanel = script.Parent.Parent.GamePanel
+	
+	GamePanel.Draggable = true
+	GamePanel.Active = true
+end
+coroutine.wrap(JUYMA_fake_script)()
+local function OAFNT_fake_script() -- Title_3.Rainbower 
+	local script = Instance.new('LocalScript', Title_3)
+
+	while wait(0) do
+		script.Parent.TextColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g+(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r-(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b+(17/255))
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g-(17/255),script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r+(17/255),script.Parent.TextColor3.g,script.Parent.TextColor3.b)
+		end
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.TextColor3 = Color3.new(script.Parent.TextColor3.r,script.Parent.TextColor3.g,script.Parent.TextColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(OAFNT_fake_script)()
+local function LSKL_fake_script() -- ChatController_2.Rainbower 
+	local script = Instance.new('LocalScript', ChatController_2)
+
+	while wait(0.1) do
+		script.Parent.BackgroundColor3 = Color3.new(1,0,0)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g+(17/255),script.Parent.BackgroundColor3.b)
+	
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r-(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end	
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b+(17/255))
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g-(17/255),script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r+(17/255),script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b)
+		end
+		wait(0.1)
+		for i=1,15 do
+			game:GetService("RunService").RenderStepped:wait()
+			script.Parent.BackgroundColor3 = Color3.new(script.Parent.BackgroundColor3.r,script.Parent.BackgroundColor3.g,script.Parent.BackgroundColor3.b-(17/255))
+		end
+	end
+end
+coroutine.wrap(LSKL_fake_script)()
+local function GZYNA_fake_script() -- ChatController_2.Draggable 
+	local script = Instance.new('LocalScript', ChatController_2)
+
+	local ChatController = script.Parent.Parent.ChatController
+	
+	ChatController.Draggable = true
+	ChatController.Active = true
+end
+coroutine.wrap(GZYNA_fake_script)()
